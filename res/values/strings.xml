@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo notes</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="note_title_hint">输入</string>
+    <string name="action_settings">设置</string>
+    <string name="note_title_label">描述</string>
+    <string name="note_details_label">照片</string>
+    <string name="note_solved_label">解决</string>
+    <string name="note_title">Photo note</string>
+    <string name = "date_picker_title">照片数据</string>
+    <string name="new_note">添加 </string>
+    <string name="show_subtitle">显示标题</string>
+    <string name="hide_subtitle">隐藏标题</string> 
+    <string name="subtitle">随时随地，记录一切</string>
+    <string name="delete_note">删除照片</string>
+    <string name="tack">拍照</string>
+    
+     
+  <string name="note_report_text">分享记事</string>
+  <string name="note_report">%1$s!
+笔记创建于%2$s。 %3$s%4$s
+  </string>
+  <string name="note_report_solved">该事件已解决</string>
+  <string name="note_report_unsolved">该事件未解决</string>
+  <string name="note_report_no_suspect">There is no suspect.</string>
+  <string name="note_report_suspect">The suspect is %s.</string>
+  <string name="note_report_subject">拍照记事</string>
+  <string name="send_report">分享记事</string>
+    
+
+</resources>

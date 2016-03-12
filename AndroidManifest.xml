@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seachal.criminalintent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <uses-permission  android:name="android.permission.CAMERA"/>
+    <uses-feature  android:name="android.hardware.camera"/>
+    
+    <!--在SDCard中创建与删除文件权限  -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--  从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+       <activity android:name="com.seachal.criminalintent.NoteListActivity"
+            android:label="@string/app_name">
+          
+           
+          </activity>
+          <activity  android:name="com.seachal.criminalintent.NotePagerActivity"
+              android:label="@string/app_name"
+              >
+               
+          </activity>
+          <activity 
+              android:name="com.seachal.criminalintent.WelcomActivity"
+             
+              >
+               <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category  android:name="android.intent.category.LAUNCHER"/>
+               </intent-filter>
+          </activity>
+        <activity  android:name="com.seachal.criminalintent.NoteCameraActivity"
+                 android:screenOrientation="landscape"
+                 android:label="@string/app_name"
+            ></activity>
+          
+    </application>
+
+</manifest>

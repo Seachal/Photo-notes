@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo notes</string>
+    <string name="title_activity_crime">CrimeActivity</string>
+    <string name="crime_title_hint">输入</string>
+    <string name="action_settings">设置</string>
+    <string name="crime_title_label">描述</string>
+    <string name="crime_details_label">照片</string>
+    <string name="crime_solved_label">解决</string>
+    <string name="crime_title">照片</string>
+    <string name = "date_picker_title">照片数据</string>
+    <string name="new_crime">新照片 </string>
+    <string name="show_subtitle">显示标题</string>
+    <string name="hide_subtitle">隐藏标题</string> 
+    <string name="subtitle">有时候宽容不是美德</string>
+    <string name="delete_crime">删除照片</string>
+    <string name="tack">拍照</string>
+    
+     <string name="crime_suspect_text">选择好友</string> 
+  <string name="crime_report_text">发送照片报告</string>
+  <string name="crime_report">%1$s!
+The crime was discovered on %2$s. %3$s, and %4$s
+  </string>
+  <string name="crime_report_solved">该事件已解决</string>
+  <string name="crime_report_unsolved">该事件未解决</string>
+  <string name="crime_report_no_suspect">There is no suspect.</string>
+  <string name="crime_report_suspect">The suspect is %s.</string>
+  <string name="crime_report_subject">CriminalIntent Crime Report</string>
+  <string name="send_report">发送照片报告</string>
+ 
+
+    
+
+</resources>
